@@ -31,3 +31,11 @@
     background-color: #bb2d3b;
     border-color: #b02a37;
 }
+
+@media (prefers-color-scheme: dark) {
+
+    .button:hover {
+        border-color: #3a3a3a;
+        color: #b0b0b1;
+    }
+}

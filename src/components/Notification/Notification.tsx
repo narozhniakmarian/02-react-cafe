@@ -1,3 +1,7 @@
+//--import-->
 import css from "./Notification.module.css";
-
-<p className={css.message}>No feedback yet</p>;
+//--component-->
+export default function Notification() {
+  //--render-->
+  return <p className={css.message}>No feedback yet</p>;
+}

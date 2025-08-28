@@ -21,3 +21,19 @@
     max-width: 600px;
     line-height: 1.6;
 }
+
+@media (prefers-color-scheme: dark) {
+    .container {
+        background-color: #2c2c2c;
+        border: 1px solid #3a3a3a;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .title {
+        color: #f1f3f5;
+    }
+
+    .description {
+        color: #c1c1c1;
+    }
+}
